@@ -10,10 +10,10 @@ function Routing(){
    console.log("routing")
     return (
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/detail/:id" element={<Detail/>} />
-            <Route path="/create" element={<Create/>} />
-            <Route path="/edit/:id" element={<Edit/>} />
+            <Route path="/warm-up-2" element={<Home/>} />
+            <Route path="/warm-up-2/detail/:id" element={<Detail/>} />
+            <Route path="/warm-up-2/create" element={<Create/>} />
+            <Route path="/warm-up-2/edit/:id" element={<Edit/>} />
         </Routes>
         
         )

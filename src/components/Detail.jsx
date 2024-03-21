@@ -19,7 +19,7 @@ function Detail() {
            console.log(filteredProduct)
            setProducts(filteredProduct)
            localStorage.setItem("products",JSON.stringify(filteredProduct))
-           navigate('/')
+           navigate('/warm-up-2/')
   }
 
   return p ? (
@@ -39,7 +39,7 @@ function Detail() {
               Delete
             </button>
             <Link
-              to={`/edit/${id}`}
+              to={`/warm-up-2/edit/${id}`}
               className="px-2 py-1 rounded-md bg-sky-100 hover:bg-sky-200 w-fit "
             >
               Edit

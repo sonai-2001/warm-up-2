@@ -17,7 +17,7 @@ function Nav(){
   
   return (
     <div className="  sidebar w-[20%] h-full bg-white p-4 px-1 flex flex-col items-start justify-start">
-        <Link to="/create" className="hover:scale-110 bg-sky-100 p-2 inline-block w-[60%] text-center border ">
+        <Link to="/warm-up-2/create" className="hover:scale-110 bg-sky-100 p-2 inline-block w-[60%] text-center border ">
           
           Add Item
         </Link>
@@ -34,7 +34,7 @@ function Nav(){
           </Link>
             )
           })}
-          <Link  to="/"  className="flex items-center justufy-center gap-[2%] mb-2 hover:text-red-300">
+          <Link  to="/warm-up-2/"  className="flex items-center justufy-center gap-[2%] mb-2 hover:text-red-300">
             <div style={
               {backgroundColor:color()}
             } className=" w-[1vw] h-[1vw]  rounded-full "></div>

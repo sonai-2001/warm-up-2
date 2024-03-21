@@ -9,7 +9,7 @@ function App() {
   const{search,pathname}=useLocation()
   return (
     <div className="w-full h-screen  flex items-center justify-center">
-    {(pathname!='/' || search.length>0) && (<Link to="/" className="absolute left-[15%] top-[3%] bg-sky-100 px-2 py-1 rounded-md">Home </Link>)}
+    {(pathname!='/warm-up-2/' || search.length>0) && (<Link to="/warm-up-2/" className="absolute left-[15%] top-[3%] bg-sky-100 px-2 py-1 rounded-md">Home </Link>)}
       
       <Routing/>
       

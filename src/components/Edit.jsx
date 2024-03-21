@@ -37,7 +37,7 @@ function Edit(){
         setProducts(copyProducts)
         localStorage.setItem('products',JSON.stringify(copyProducts))
         
-        Navigate('/')
+        Navigate('/warm-up-2/')
 
           
      }

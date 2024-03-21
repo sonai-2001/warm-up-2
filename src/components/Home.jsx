@@ -40,7 +40,7 @@ function Home (){
        {newp && newp.map((item,id)=>{
          
      return (
-      <Link  to={`/detail/${item.id}`} key={id} className=" cards rounded-md overflow-hidden w-[18vw] bg-white h-[20vw] hover:scale-110">
+      <Link  to={`/warm-up-2/detail/${item.id}`} key={id} className=" cards rounded-md overflow-hidden w-[18vw] bg-white h-[20vw] hover:scale-110">
       <div
         className=" image w-full h-[80%] bg-contain mb-2"
         style={{
