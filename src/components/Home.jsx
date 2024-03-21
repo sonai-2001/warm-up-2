@@ -31,7 +31,7 @@ function Home (){
   }
  },[category,products])
   
-  return newp &&(
+  return (
      <>
      <Nav />
      

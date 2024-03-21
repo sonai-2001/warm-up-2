@@ -7,7 +7,7 @@ export const UserContext=createContext()
 
  function Context(props){
   console.log("context")  
-  const[products,setProducts]=useState(JSON.parse(localStorage.getItem("products"))||[])
+  const[products,setProducts]=useState(JSON.parse(localStorage.getItem("products"))||null)
 
 //    const getApi=async ()=>{
 //      const{data}=   await axios.get("/products")
