@@ -9,7 +9,14 @@ export const UserContext=createContext()
   console.log("context")  
   const[products,setProducts]=useState(JSON.parse(localStorage.getItem("products"))||[])
 
-    
+   const getApi=async ()=>{
+     const{data}=   await axios.get("/products")
+     setProducts(data)
+   }
+
+    useEffect(()=>{
+      getApi()
+    },[])
     return (
         <UserContext.Provider value={[products,setProducts]}>{props.children}</UserContext.Provider>    
     )
