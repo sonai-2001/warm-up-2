@@ -6,7 +6,7 @@ function Nav(){
  
   const[products]= useContext(UserContext)
  
- const category=products.reduce((acc,item)=>[...acc,item.category],[])
+ const category=products && products.reduce((acc,item)=>[...acc,item.category],[])
  
  const distCategory=[... new Set(category)]
 //  console.log(distCategory)
